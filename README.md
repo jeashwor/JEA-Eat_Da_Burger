@@ -26,7 +26,7 @@ Eat-Da-Burger! A restaurant style app using MySQL, Node, Express, Handlebars, an
 
 ## Installation Instructions
 
-* Follow [Link](https://github.com/jeashwor/burger) to application GitHub repository.
+* Follow [Link](https://github.com/jeashwor/JEA-Eat_Da_Burger) to application GitHub repository.
 
 * Locate Green "Code" button and select the clipboard to copy repo data.
 
