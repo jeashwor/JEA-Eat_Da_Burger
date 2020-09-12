@@ -1,3 +1,46 @@
+body {
+    background: url("../images/falling.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+li {
+    font-size: large;
+    height: 60px;
+}
+
+.jumbotron {
+    background: none;
+    padding: 0px;
+}
+
+.burgersList {
+    background-color: rgba(250, 250, 250, 0.9);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.burgerTron {
+    background-color: rgba(250, 250, 250, 0.9);
+    height: auto;
+    border-radius: 10px;
+}
+
 .createBurger {
     width: 50%;
+    padding-bottom: 20px;
 }
+
+#burgerImg {
+    width: 250px;
+    /* margin-top: 15px; */
+    margin-right: 50px;
+}
+
+#burgerStatement {
+    font-size: medium;
+    margin-top: 25px;
+}
+
+#mainHeader {
+    font-size: 50px;
+};
