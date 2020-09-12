@@ -23,7 +23,7 @@
                 {{#each burgers}}
                 {{#unless devoured}}
                 <li>
-                    <span class="burgerName align-middle">{{this.id}} - {{this.burger_name}}</span>
+                    <span class="burgerName">{{this.id}} - {{this.burger_name}}</span>
                     <button type="button" class="btn btn-warning eatBurger float-right" data-id="{{this.id}}">Eat Me!</button>
                 </li>
                 {{/unless}}
@@ -37,7 +37,7 @@
                 {{#each burgers}}
                 {{#if devoured}}
                 <li>
-                    <span class="burgerName align-middle">{{this.id}} - {{this.burger_name}}</span>
+                    <span class="burgerName">{{this.id}} - {{this.burger_name}}</span>
                     <button type="button" class="btn btn-danger deleteBurger float-right" data-id="{{this.id}}">Delete</button>
                 </li>
                 {{/if}}

@@ -25,9 +25,13 @@ li {
     border-radius: 10px;
 }
 
+.burgerName {
+    font-weight: bold;
+}
+
 .createBurger {
     width: 50%;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 #burgerImg {
